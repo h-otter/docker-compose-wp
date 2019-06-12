@@ -10,6 +10,11 @@ docker-compose files for wordpress.
     - http2
 - MySQL 5.7
 
+## Usage
+
+1. change database password on docker-compose file (temporary password is `CHANGE_ME`)
+2. `docker-compose up`
+
 ## About certifications
 
 ### Generate certifications for test
