@@ -5,8 +5,9 @@ docker-compose files for wordpress.
 ## Features
 
 - Wordpress
-- php-fpm 7.3
+    - php-fpm 7.3
 - Nginx
+    - http2
 - MySQL 5.7
 
 ## About certifications
