@@ -13,7 +13,11 @@ I have tuned parameters for a server which has CPU 2 core and Memory 2 GB.
 - Wordpress
     - php-fpm 7.3
 - Nginx
-    - http2
+    - Enabled http2
+    - Enabled client-side cache (html/js/css/png/jpeg/gif/webp)
+    - Redirect http to https
+    - Disabled HSTS for developments
+    - Redirect PNG and JPEG files to WebP for EWWW Optimizer
 - MySQL 5.7
 
 ## Usage
