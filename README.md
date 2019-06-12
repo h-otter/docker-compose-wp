@@ -16,7 +16,7 @@ I have tuned parameters for a server which has CPU 2 core and Memory 2 GB.
     - Enabled http2
     - Enabled client-side cache (html/js/css/png/jpeg/gif/webp)
     - Enabled fastcgi cache
-        - Wait up to 10 minutes if the change is not reflected
+        - Wait up to 30 minutes if the change is not reflected
         - Set permalink as `Day and name`
     - Redirect http to https
         - Disabled HSTS for developments
